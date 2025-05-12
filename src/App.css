@@ -97,3 +97,24 @@ input,
 button {
   margin-top: 0.5rem;
 }
+.open-pdf-button {
+  background-color: white;
+  color: blue;
+  padding: 5px 10px; /* Botón más pequeño */
+  font-size: 14px; /* Texto más pequeño */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Espaciado entre el ícono y el texto */
+}
+
+.open-pdf-button:hover {
+  background-color: white;
+  color: #81d4fa; /* Celeste claro */
+}
+
+.button-icon {
+  font-size: 16px; /* Tamaño del ícono */
+}
